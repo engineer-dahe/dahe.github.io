@@ -1,0 +1,15 @@
+
+<aside class="share">
+
+  <p>If you liked this article and think others should read it, please
+    <a href="javascript:;" onclick="shareToWeibo('{{ site.url }}{{ page.url }}')">share it on Weibo <i class="fa fa-weibo" aria-hidden="true" style="color:#00aced"></i></a>.
+  </p>
+
+  <script>
+    function shareToWeibo(url) {
+      var shareUrl = "http://service.weibo.com/share/share.php?url=" + encodeURIComponent(url);
+      window.open(shareUrl, '分享至新浪微博', 'width=600,height=500');
+    }
+  </script>
+
+</aside>

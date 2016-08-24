@@ -1,0 +1,59 @@
+
+# SEO settings
+title: "vim22th"
+title2: "blog" # default: ""
+description: "This is Ryan's blog."
+keywords: "Jekyll, SEO, blog, web"
+url: http://blog.vim22th.org # site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+google_analytics: UA-XXXXX-XX
+repo:
+disqus_shortname: ""
+twitter_username: ""
+comments: true
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Ryan Ding"
+  job      : "Web Software Engineer"
+  bio      : ""
+  thumb    : /images/author.jpg
+  email    : ddinnnng@qq.com
+  url      : http://blog.vim22th.io
+  github   : http://github.com/vim22th
+  twitter  :
+  facebook :
+  linkedin :
+
+# social settings
+og_locale: "zh_CN"
+twitter_card: ""
+twitter_site: ""
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
