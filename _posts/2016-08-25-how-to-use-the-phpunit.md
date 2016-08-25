@@ -13,7 +13,7 @@ PHPUnit可以通过两种方式进行安装，第一种是 **PHP 档案包（PHA
 
 #### PHAR安装
 **Linux**下配置安装PHPUint
-``` bash
+```shell
 //全局安装：
 $ wget https://phar.phpunit.de/phpunit.phar
 $ chmod +x phpunit.phar
@@ -35,7 +35,7 @@ C:\Users\username> cd C:\bin
 C:\bin> echo @php "%~dp0phpunit.phar" %* > phpunit.cmd
 C:\bin> exit
 ```
-- 新开一个命令行窗口，确认一下可以在任意路径下执行 PHPUnit：
+- 新开一个命令行窗口，确认一下可以在任意路径下执行 PHPUnit
 ```php
 C:\Users\username> phpunit --version
 ```
