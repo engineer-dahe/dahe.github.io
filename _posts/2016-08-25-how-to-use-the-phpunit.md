@@ -13,6 +13,7 @@ PHPUnit可以通过两种方式进行安装，第一种是 **PHP 档案包（PHA
 
 #### PHAR安装
 **Linux**下配置安装PHPUint
+
 ```shell
 //全局安装：
 $ wget https://phar.phpunit.de/phpunit.phar
@@ -30,13 +31,15 @@ $ php phpunit.phar --version
 - 下载 https://phar.phpunit.de/phpunit.phar 并将文件保存到 C:\bin\phpunit.phar
 - 打开命令行（例如，按 Windows+R » 输入 cmd » ENTER)
 - 建立外包覆批处理脚本（最后得到 C:\bin\phpunit.cmd）
-```
+
+```shell
 C:\Users\username> cd C:\bin
 C:\bin> echo @php "%~dp0phpunit.phar" %* > phpunit.cmd
 C:\bin> exit
 ```
 - 新开一个命令行窗口，确认一下可以在任意路径下执行 PHPUnit
-```
+
+```shell
 C:\Users\username> phpunit --version
 ```
 - 对于 Cygwin 或 MingW32 (例如 TortoiseGit) shell 环境，可以跳过第五步。 取而代之的是，把文件保存为 phpunit （没有 .phar 扩展名），然后用 chmod 775 phpunit 将其设为可执行。
@@ -45,6 +48,7 @@ C:\Users\username> phpunit --version
 首先请确保你的开发机器中已经安装配置好了Composer，我个人推荐比较喜欢使用Composer方式进行安装。
 
 - 修改composer.json文件,在require-dev中加入phpunit选项。
+
 ```
   {
     "require-dev" : {
