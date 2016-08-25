@@ -50,7 +50,7 @@ PHPUnit可以通过两种方式进行安装，第一种是 **PHP 档案包（PHA
 首先请确保你的开发机器中已经安装配置好了Composer，我个人推荐比较喜欢使用Composer方式进行安装。
 
 - 修改composer.json文件,在require-dev中加入phpunit选项。
-```
+```php
       {
         "require-dev" : {
             "phpunit/phpunit": "5.5.*"
@@ -62,4 +62,4 @@ PHPUnit可以通过两种方式进行安装，第一种是 **PHP 档案包（PHA
 - 最后可以执行 `project_dir/vendor/bin/phpunit phpfile_name` 进行代码测试。
 
 ### PHPUint使用实例
-PHPUnit详细使用方式可以参考 **[官方文档](http://www.phpunit.cn/manual/current/zh_cn/installation.html#installation.composer)**，我在Github上维护了一个简单的 **[Demo](http://blog.vim22th.org)**，给大家做一个参考。
+PHPUnit详细使用方式可以参考 **[官方文档](http://www.phpunit.cn/manual/current/zh_cn/installation.html#installation.composer)**，我在Github上维护了一个简单的 **[Demo](https://github.com/vim22th/DP)**，给大家做一个参考。
