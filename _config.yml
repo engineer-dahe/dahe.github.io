@@ -17,7 +17,6 @@ comments: true
 # Build settings
 permalink   : /:year/:title/
 markdown    : kramdown
-highlighter : rouge
 
 source: ./
 destination: ./_site
@@ -39,11 +38,6 @@ author:
   twitter  :
   facebook :
   linkedin :
-
-# social settings
-og_locale: "zh_CN"
-twitter_card: ""
-twitter_site: ""
 
 gems:
   - bourbon
