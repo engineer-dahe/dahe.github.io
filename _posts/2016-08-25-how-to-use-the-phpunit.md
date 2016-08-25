@@ -50,6 +50,7 @@ PHPUnit可以通过两种方式进行安装，第一种是 **PHP 档案包（PHA
 首先请确保你的开发机器中已经安装配置好了Composer，我个人推荐比较喜欢使用Composer方式进行安装。
 
 - 修改composer.json文件,在require-dev中加入phpunit选项。
+
 ```php
       {
         "require-dev" : {
