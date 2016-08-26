@@ -48,7 +48,7 @@ PHPUnit可以通过两种方式进行安装，第一种是 **PHP 档案包（PHA
 - 对于 Cygwin 或 MingW32 (例如 TortoiseGit) shell 环境，可以跳过第五步。 取而代之的是，把文件保存为 phpunit （没有 .phar 扩展名），然后用 chmod 775 phpunit 将其设为可执行。
 
 #### Composer安装
-首先请确保你的开发机器中已经安装配置好了Composer，我个人推荐比较喜欢使用Composer方式进行安装。
+首先请确保你的开发机器中已经安装配置好了Composer，我个人比较喜欢使用Composer方式进行安装。
 
 - 修改composer.json文件,在require-dev中加入phpunit选项。
 
