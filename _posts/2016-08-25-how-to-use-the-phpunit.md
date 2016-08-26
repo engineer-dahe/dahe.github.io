@@ -40,6 +40,7 @@ PHPUnit可以通过两种方式进行安装，第一种是 **PHP 档案包（PHA
 ```
 
 - 新开一个命令行窗口，确认一下可以在任意路径下执行 PHPUnit
+
 ```shell
     C:\Users\username> phpunit --version
 ```
