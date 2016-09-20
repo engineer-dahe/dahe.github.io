@@ -1,7 +1,7 @@
 
 # SEO settings
-title: "22"
-title2: "th" # default: ""
+title: "Ryan"
+title2: " 's blog" # default: ""
 description: "This is Ryan's blog."
 keywords: "Jekyll, SEO, blog, web"
 url: http://blog.vim22th.org # site url
