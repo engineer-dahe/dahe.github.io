@@ -12,15 +12,15 @@ keywords: ""
 ### 一个基础的、正规的svn仓库目录结构是这样的
 
 http://xx.xxx.xx/.../project_name
-|-branches （包含所有开发者分支）
-&nbsp;&nbsp;|--------- coder_1
-&nbsp;&nbsp;|--------- coder_2
-&nbsp;&nbsp;|--------- ...
-|-tags（每一次上线前都会打一个tag，方便回滚）
-&nbsp;&nbsp;|--------- project_name_v1.0
-&nbsp;&nbsp;|--------- project_name_v2.0
-&nbsp;&nbsp;|--------- ...
-|-trunk（主分支，和线上代码同步）
+|-branches （包含所有开发者分支）<br />
+&nbsp;&nbsp;|--------- coder_1 <br />
+&nbsp;&nbsp;|--------- coder_2 <br />
+&nbsp;&nbsp;|--------- ... <br />
+|-tags（每一次上线前都会打一个tag，方便回滚）<br />
+&nbsp;&nbsp;|--------- project_name_v1.0 <br />
+&nbsp;&nbsp;|--------- project_name_v2.0 <br />
+&nbsp;&nbsp;|--------- ... <br />
+|-trunk（主分支，和线上代码同步）<br />
 
 
 当你接到一个产品需求，开始着手开发的时候，svn流程是这样的：
