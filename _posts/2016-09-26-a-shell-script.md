@@ -6,7 +6,7 @@ description: "一个查询数据库迁移数据的shell脚本"
 keywords: ""
 ---
 
-# 一个我自己使用的,主要用于查询数据库迁移数据的shell脚本
+一个我自己使用的,主要用于查询数据库迁移数据的shell脚本
 
 ```shell
 #/usr/bin/bash
