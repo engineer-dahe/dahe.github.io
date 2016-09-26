@@ -106,5 +106,5 @@ svn copy http://svn_server/xxx_repository/trunk http://svn_server/xxx_repository
 到这里，整个svn项目开发流程就已经非常清楚了。svn还有很多高级功能，比如文件对比、文件历史修改记录等等需要你慢慢去摸索了，上面讲的在日常开发中基本已经够用了。svn分支的理解可以解释为文件的备份，和git相比还是笨很多。git切分支几乎没有成本，分布式仓库管理模式也是svn所不具备的。
 
 在推荐几个svn图形化管理工具：
-windows： TortoiseSVN   很强大，谁用谁知道，我一把用他来查看文件历史修改记录
+windows：TortoiseSVN(很强大，谁用谁知道，我一般用他来查看文件历史修改记录) <br />
 mac：Cornerstone
