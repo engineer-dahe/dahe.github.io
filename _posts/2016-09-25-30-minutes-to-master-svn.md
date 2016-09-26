@@ -9,7 +9,7 @@ keywords: ""
 
 我尽量用最简洁明了的方式告诉大家如何使用svn命令行进行团队协作
 
-#一个基础的、正规的svn仓库目录结构是这样的
+一个基础的、正规的svn仓库目录结构是这样的
 
 http://xx.xxx.xx/.../project_name <br />
 &nbsp;&nbsp;|-branches （包含所有开发者分支）<br />
@@ -20,10 +20,10 @@ http://xx.xxx.xx/.../project_name <br />
 &nbsp;&nbsp;&nbsp;&nbsp;|--------- project_name_v1.0 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;|--------- project_name_v2.0 <br />
 &nbsp;&nbsp;&nbsp;&nbsp;|--------- ... <br />
-&nbsp;&nbsp;|-trunk（主分支，和线上代码同步）<br />
-
-
-##**当你接到一个产品需求，开始着手开发的时候，svn流程是这样的：**
+&nbsp;&nbsp;|-trunk（主分支，和线上代码同步）
+<br />
+<br />
+**当你接到一个产品需求，开始着手开发的时候，svn流程是这样的：** <br />
 首先以当前线上分支trunk为基准，在仓库下的**branches**目录中建一个属于你的开发分支，你可以命名成这样 **ryan_20160923** ,或者和需求相关的，比如这样**edit_user_template**等等，新建分支的svn命令如下：
 
 ```
