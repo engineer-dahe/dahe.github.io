@@ -42,7 +42,7 @@ svn checkout http://svn_server/xxx_repository/branches/ryan_20160923
 ```
 svn add <file> // 添加文件到工作区间，默认新建的文件是不会自动添加到版本库的，需要手动使用svn add命令添加
 svn st | grep '^\?' | tr '^\?' ' ' | sed 's/[ ]*//' | sed 's/[ ]/\\ /g' | xargs svn add // 添加所有新增文件，强大的脚本
-svn commit -m “msg” // 提交更新到远程仓库
+svn commit -m “msg” // 提交更新到远程仓库,注意如果没有添加新文件,直接commit就OK
 svn update // 更新远程仓库的修改到本地
 svn info // 查看当前仓库的svn信息，如svn地址等
 svn st // 查看当前工作区间状态
