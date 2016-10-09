@@ -9,7 +9,7 @@ keywords: ""
 
 我尽量用最简洁明了的方式告诉大家如何使用svn命令行进行团队协作
 
-一个基础的、正规的svn仓库目录结构是这样的
+一个基础的、常规的svn仓库目录结构是这样的
 
 http://xx.xxx.xx/.../project_name <br />
 &nbsp;&nbsp;|-branches （包含所有开发者分支）<br />
