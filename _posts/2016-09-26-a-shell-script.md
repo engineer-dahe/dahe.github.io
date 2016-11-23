@@ -2,7 +2,6 @@
 layout: post
 title: "一个查询数据库迁移数据的shell脚本"
 comments: true
-description: "一个查询数据库迁移数据的shell脚本"
 keywords: ""
 ---
 

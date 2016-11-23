@@ -2,7 +2,6 @@
 layout: post
 title: "半个小时学会使用git命令行进行团队协作"
 comments: true
-description: "半个小时学会使用git命令行进行团队协作"
 keywords: ""
 ---
 

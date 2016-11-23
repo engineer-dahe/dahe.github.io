@@ -2,7 +2,6 @@
 layout: post
 title: "配置并使用PHPUnit测试框架进行单元测试"
 comments: true
-description: "配置并使用PHPUnit测试框架进行单元测试"
 keywords: ""
 ---
 

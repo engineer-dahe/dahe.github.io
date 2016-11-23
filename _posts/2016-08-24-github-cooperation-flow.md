@@ -2,7 +2,6 @@
 layout: post
 title: "如何在Github上为开源项目贡献自己的代码"
 comments: true
-description: "如何在Github上为开源项目贡献自己的代码"
 keywords: ""
 ---
 

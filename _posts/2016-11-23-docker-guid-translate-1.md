@@ -2,7 +2,6 @@
 layout: post
 title: "Docker用户文档翻译(1)"
 comments: true
-description: "安装Docker并运行hello-world"
 keywords: ""
 ---
 

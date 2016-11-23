@@ -2,7 +2,6 @@
 layout: post
 title: "Javascript中Array常规使用方法"
 comments: true
-description: "Javascript中Array常规使用方法"
 keywords: ""
 ---
 
