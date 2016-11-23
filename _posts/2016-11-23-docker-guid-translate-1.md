@@ -2,8 +2,11 @@
 layout: post
 title: "Docker用户文档翻译(1)"
 comments: true
+description: ""
 keywords: ""
 ---
+
+原文: [Install Docker and run hello-world](https://docs.docker.com/engine/getstarted/step_one/#/docker-for-linux)
 
 ## 安装Docker主要分为以下三个步骤：
 * 步骤1：获取Docker
@@ -94,5 +97,3 @@ Docker引擎原生可以在各个Linux发行版中运行。
 
 下一篇：<br>
 在当前文章中，你已经成功的安装了Docker，关掉当前Docker快速命令入门窗口。现在，我们继续前往下一页去阅读[关于Docker images和容器的剪短说明](https://docs.docker.com/engine/getstarted/step_two/)。
-
-[原文链接: https://docs.docker.com/engine/getstarted/step_one/#/docker-for-linux](https://docs.docker.com/engine/getstarted/step_one/#/docker-for-linux)
