@@ -52,7 +52,7 @@ Docker引擎原生可以在各个Linux发行版中运行。
 * Linux安装说明 - [点击查看](https://docs.docker.com/engine/getstarted/linux_install_help/)在Ubuntu中安装Docker实例，更多其他版本Liunx安装说明请[查看这里](https://docs.docker.com/engine/installation/)
 
 ### 步骤3：验证安装
-1、打开命令行终端，输入Docker指令来验证Docker是否安装正确。尝试使用`docker version`去检查你最终安装的Docker版本，`docker ps`去查看当前正在运行的容器（获取没有，应该你才刚刚入门）。
+1、打开命令行终端，输入Docker指令来验证Docker是否安装正确。尝试使用`docker version`去检查你最终安装的Docker版本，`docker ps`去查看当前正在运行的容器（或许没有，应该你才刚刚入门）。
 2、输入`docker run hell-world`并敲回车，命令开始被执行，如果一切顺利的话，你会看到命令行输出内容如下：
 
 ```
