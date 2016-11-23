@@ -5,8 +5,6 @@ comments: true
 keywords: ""
 ---
 
-# 安装Docker并运行第一个程序Hello world
-
 ## 安装Docker主要分为以下三个步骤：
 * 步骤1：获取Docker
 * 步骤2：安装Docker
@@ -14,33 +12,33 @@ keywords: ""
 
 ### 步骤1：获取Docker
 
-##### Docker for Mac
+**Docker for Mac**
 Docker for Mac是我们提供的最新的Mac版本。它是一个使用xhyve虚拟Docker引擎环境和Linux核心特性为Docker守护程序的Mac应用程序。
 
-**系统要求** <br>
+系统要求 <br>
 
 * 2010年或之后的Mac产品，cpu支持内存管理单元虚拟化
 * 系统为macOs10.10.3 或者更高版本
 * 至少4G内存
 * 确保VirtualBox4.3.30之前的版本没有被安装（与Mac版本Docker不兼容），否则在这种情况下安装Docker会报错，请删除老版本的VirtualBo并尝试重新安装
 
-**Docker Toolbox For Mac** <br>
+Docker Toolbox For Mac <br>
 如果您使用的是早期版本的Mac或者你的设备不能满足以上条件，请尝试使用Docker Toolbox。
 [点击查看Docker Toolbox描述获取安装帮助](https://docs.docker.com/toolbox/overview/)
 
-##### Docker for Windows
+**Docker for Windows**
 Docker for Windows是我们提供的最新的PC版本。它是一个使用Hyper-v虚拟Docker引擎环境和Linux核心特性为Docker守护程序的Windows应用程序。
 
-**系统要求** <br>
+系统要求 <br>
 
 * 64为Window 10 pro，企业版或教育版（安装了十一月更新，基于10586或更早版本构建）。未来我们会支持更多的Windows版本。
 * Hyper-v必须打开，必要时Docker在安装时会帮你打开它。（重启后生效）
 
-**Docker Toolbox For Windows** <br>
+Docker Toolbox For Windows <br>
 如果您使用的是早期版本的Windows将不能满足以上条件，请尝试使用Docker Toolbox。
 [点击查看Docker Toolbox描述获取安装帮助](https://docs.docker.com/toolbox/overview/)
 
-##### Docker for Linux
+**Docker for Linux**
 Docker引擎原生可以在各个Linux发行版中运行。
 获取更全面的Docker在各个Linux发行版中的安装指令说明，[请点击这里](https://docs.docker.com/engine/installation/)
 
