@@ -12,7 +12,7 @@ keywords: ""
 
 ### 步骤1：获取Docker
 
-**Docker for Mac**
+**Docker for Mac** <br>
 Docker for Mac是我们提供的最新的Mac版本。它是一个使用xhyve虚拟Docker引擎环境和Linux核心特性为Docker守护程序的Mac应用程序。
 
 系统要求 <br>
@@ -26,7 +26,7 @@ Docker Toolbox For Mac <br>
 如果您使用的是早期版本的Mac或者你的设备不能满足以上条件，请尝试使用Docker Toolbox。
 [点击查看Docker Toolbox描述获取安装帮助](https://docs.docker.com/toolbox/overview/)
 
-**Docker for Windows**
+**Docker for Windows** <br>
 Docker for Windows是我们提供的最新的PC版本。它是一个使用Hyper-v虚拟Docker引擎环境和Linux核心特性为Docker守护程序的Windows应用程序。
 
 系统要求 <br>
@@ -38,7 +38,7 @@ Docker Toolbox For Windows <br>
 如果您使用的是早期版本的Windows将不能满足以上条件，请尝试使用Docker Toolbox。
 [点击查看Docker Toolbox描述获取安装帮助](https://docs.docker.com/toolbox/overview/)
 
-**Docker for Linux**
+**Docker for Linux** <br>
 Docker引擎原生可以在各个Linux发行版中运行。
 获取更全面的Docker在各个Linux发行版中的安装指令说明，[请点击这里](https://docs.docker.com/engine/installation/)
 
