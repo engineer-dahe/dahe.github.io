@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Docker用户文档翻译(1)"
+title: "Docker用户文档翻译(2)"
 comments: true
 description: ""
 keywords: ""
 ---
 
-原文: [Install Docker and run hello-world](https://docs.docker.com/engine/getstarted/step_two/)
+原文: [Learn about images and containers](https://docs.docker.com/engine/getstarted/step_two/)
 
 Docker引擎为镜像和容器提供了核心技术。在上一篇文章中，你安装Docker的最后，执行了`docker run hello-world`命令，这条命令包含以下三个部分：
 
