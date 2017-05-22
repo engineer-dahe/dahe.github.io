@@ -127,7 +127,7 @@ hr {
 }
 
 .post-list {
-  background-color: lighten($light-gray-color, 17%);
+  /**background-color: lighten($light-gray-color, 17%);*/
 }
 
 .category-title {
@@ -144,13 +144,13 @@ hr {
 
   a {
     color: $action-color;
-    font-weight: bold;
+    /**font-weight: bold*/;
   }
 
   .article-title {
     display: inline-block;
     width: 85%;
-    border-bottom: 1px dashed lighten($light-gray-color, 10%);
+    /**border-bottom: 1px dashed lighten($light-gray-color, 10%);*/
   }
 
   .date-label {
