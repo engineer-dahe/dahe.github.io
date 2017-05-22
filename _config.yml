@@ -1,10 +1,10 @@
 
 # SEO settings
-title: "Ryan"
-title2: "'s blog" # default: ""
-description: "This is Ryan's blog."
-keywords: "Jekyll, SEO, blog, web"
-url: http://blog.vim22th.org # site url
+title: "Yes"
+title2: ",丁小江" # default: ""
+description: "丁小江自由发挥空间."
+keywords: "丁小江, Jekyll, SEO, blog, web"
+url: http://1024b.github.io # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
 # baseurl: null # apply null if repo name is something like username.github.io
 
@@ -28,13 +28,13 @@ sass:
 
 # Author settings
 author:
-  name     : "Ryan Ding(丁小江)"
+  name     : "丁小江(Ryan)"
   job      : "Web Software Engineer"
   bio      : ""
   thumb    : /images/author.jpg
   email    : ddinnnng@qq.com
-  url      : http://blog.vim22th.io
-  github   : http://github.com/vim22th
+  url      : http://1024b.github.io
+  github   : https://github.com/1024b
   twitter  :
   facebook :
   linkedin :

@@ -95,7 +95,7 @@ hr {
   margin: 0 0 1em 0;
   cursor: pointer;
   letter-spacing: 0.8px;
-  font-size: 20px;
+  font-size: 1.1em;
   line-height: 28px;
   font-weight: 300;
 
@@ -123,6 +123,7 @@ hr {
 
   a {
     @extend .link;
+    font-size: 0.9em;
   }
 }
 
