@@ -1,4 +1,3 @@
-
 # SEO settings
 title: "Yes"
 title2: ",丁小江" # default: ""
@@ -16,7 +15,7 @@ comments: true
 
 # Build settings
 permalink   : /:year/:title/
-markdown    : kramdown
+# markdown    : kramdown
 
 source: ./
 destination: ./_site
