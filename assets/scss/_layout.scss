@@ -150,14 +150,13 @@ hr {
   .article-title {
     display: inline-block;
     width: 85%;
-    font-size: 1em;
+    font-size: 0.9em;
     /**border-bottom: 1px dashed lighten($light-gray-color, 10%);*/
   }
 
   .article-date {
-    font-size: 0.7em;
+    font-size: 0.8em;
     color: gray;
-    margin-left: 1em;
   }
 
   .date-label {
