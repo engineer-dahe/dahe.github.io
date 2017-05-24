@@ -6,7 +6,7 @@ keywords: ""
 author: 'ddinnnng@gmail.com'
 ---
 
-<p>首先我们来看有一个场景： </p>
+<h4>业务场景</h4>
 
 <p>因为业务访问量激增，单台redis已经无法满足需求，因此需要搭建一个redis集群来增加服务及负载能力。原先的往单台redis写数据的逻辑变成往多台机器写，为了保证我们能正确的找到我们的缓存数据，一般的做法是Hash(key) % N（N是机器的个数）求余定位到一台固定的机器，OK没问题，我们解决了现阶段的问题。但是随着业务量的持续激增，我们再次需要扩充redis集群，比如从原先的5台，扩充到10台，这样我们原先的数据路由公式 Hash(key)%5变成 了 Hash(key)%10，但是这样会有一个很严重的问题，就是我原先的key再次经过Hash求余所得到的结果和上次不一样，导致原先几乎所的缓存失效，重新生成新缓存的过程对一个大流量的业务来说这是一个灾难。 </p>
 
@@ -38,6 +38,4 @@ author: 'ddinnnng@gmail.com'
 
 <p>下面附上一段PHP实现一致性Hash算法的Demo： </p>
 
-<p><a href="">[CHash]https://github.com/1024b/CHash</a></p>
-
-
+<p><a href="https://github.com/1024b/CHash">[CHash]</a></p>
