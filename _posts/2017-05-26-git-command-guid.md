@@ -18,6 +18,7 @@ git clone git@github.com:1024b/test.git
 ```
 cd 工作目录
 mkdir 项目目录
+cd 项目目录
 git init
 git remote add origin git@github.com:1024b/test.git
 git fetch
