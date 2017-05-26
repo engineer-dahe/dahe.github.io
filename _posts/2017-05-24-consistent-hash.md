@@ -3,7 +3,7 @@ layout: post
 title: "一致性哈希算法的使用分析"
 comments: true
 keywords: ""
-author: 'ddinnnng@gmail.com'
+author: '丁'
 ---
 
 <h4>业务场景</h4>
