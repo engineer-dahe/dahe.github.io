@@ -42,6 +42,7 @@ git rm <filename1> … // 从仓库中删除文件
 ```
 
 *高级操作*
+
 强制更新代码上一个commit版本（代码已推送到远程仓库）
 ```
 git log // 查看上一个commit的id
@@ -50,27 +51,41 @@ git push -f // 强制将本地代码跟新到远程仓库
 ```
 
 查看最后一次commit修改的文件列表
-`git log --pretty=format:"" --name-only -1`
+```
+git log --pretty=format:"" --name-only -1
+```
 
 查看某个commit修改的文件列表
-`git log <commit 版本号> --pretty=format:"" --name-only -1`
+```
+git log <commit 版本号> --pretty=format:"" --name-only -1
+```
 
 查看上一次修改的代码
-`git show`
+```
+git show
+```
 
 查看指定commit中的某个文件的修改代码
-`git show / git show <commit 版本号> <filename>`
+```
+git show / git show <commit 版本号> <filename>
+```
+
 
 比较两个commit中的文件差异
-```git diff <commit id1> <commit id2> <filename>```
+```
+git diff <commit id1> <commit id2> <filename>
+```
 
 比较两个分支中的文件差异
-```git diff <分支1> <分支2> <filename>```
+```
+git diff <分支1> <分支2> <filename>
+```
 
 *Git配置*
 ```
 git config --global user.name ‘username’
 git config --global user.email ‘email’
 git config --global alias.co checkout  // git别名，git checkout == git co
-```
 ...
+```
+
