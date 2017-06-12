@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "使用一条MySQL语句批量更新某个字段"
+title: "MySQL批量更新某个字段"
 comments: true
 keywords: ""
 author: '丁'
@@ -53,4 +53,4 @@ author: '丁'
 	}
 ```
 
-上面的$this->query() & $this->affected_rows() 替换为自己常用的sql查询方式即可.
+上面的$this->query() & $this->affected_rows() 替换为自己常用的sql查询封装.
