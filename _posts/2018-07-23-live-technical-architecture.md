@@ -98,7 +98,7 @@ author: '丁'
 
 接入云后的直播架构
 
-![blockchain](https://odum9helk.qnssl.com/FnjQPTi0LdV4bpcG9BDhmKnjbUGr "弹幕时序图")
+![blockchain](http://doc.husor.com/download/attachments/93619188/img-jiagoutu-846d57500898a37ffa9c5d24c1926ce3f5e298c61b4735ac52c54bbd9e9dbb25.png?version=1&modificationDate=1532607559314 "云直播")
 
 ##### 4.2 AI在直播中的应用
 
